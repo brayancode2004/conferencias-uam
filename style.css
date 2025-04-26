@@ -64,13 +64,18 @@ body {
     overflow-x: auto;
     gap: 1rem;
     margin-top: 1rem;
+    scrollbar-width: none;
   }
-  
+  .slider::-webkit-scrollbar {
+    display: none; 
+  }
+
   .slider img {
-    height: 200px;
+    height: 300px;
     border-radius: 10px;
   }
-  
+
+
   /* Formulario */
   form {
     background: white;
